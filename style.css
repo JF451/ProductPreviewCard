@@ -94,3 +94,24 @@ button {
   flex-direction: column;
   gap: 20px;
 }
+
+@media screen and (min-width: 800px) {
+  .container {
+      width: 1440px;
+      height: 800px;
+  }
+
+  .product-card {
+    width: 600px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+ img {
+  background-size: auto 100%;
+  }
+
+}
